@@ -32,13 +32,8 @@ void input() {
 //swap the element at index x with the element at index y
 void swap(int x, int y)
 {
-	int temp;
-	int pivot, i, j;
-	if (low > high) { //step 1
-		return;
-	}
-
-	pivot = arr[low]; //step 2
-	i = low + 1; //step 3 
-	j = high; //step 4
+	int temp = arr[x];
+	arr[x] = arr[y];
+	arr[y] = temp;
+	mov_count++;
 }
