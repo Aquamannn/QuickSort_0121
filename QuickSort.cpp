@@ -38,4 +38,6 @@ void swap(int x, int y)
 		return;
 	}
 
+	pivot = arr[low]; //step 2
+	
 }
