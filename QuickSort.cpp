@@ -29,3 +29,13 @@ void input() {
 	}
 
 }
+//swap the element at index x with the element at index y
+void swap(int x, int y)
+{
+	int temp;
+	int pivot, i, j;
+	if (low > high) { //step 1
+		return;
+	}
+
+}
